@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - Seu Negócio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Delivery - Seu Negócio</h1>
+        <nav class="navbar">
+            <a href="#menu">Cardápio</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <h2>Nosso Cardápio</h2>
+        <div class="menu-item">
+            <h3>Bolo de Chocolate</h3>
+            <p>Delicioso bolo com cobertura cremosa. <strong>R$ 30,00</strong></p>
+            <button onclick="adicionarAoCarrinho('Bolo de Chocolate')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Bolo de Morango</h3>
+            <p>Bolo recheado com morangos frescos. <strong>R$ 35,00</strong></p>
+            <button onclick="adicionarAoCarrinho('Bolo de Morango')">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma confeitaria artesanal em Fortaleza, especializada em bolos frescos e deliciosos.</p>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <h2>Contato</h2>
+        <p>WhatsApp: <a href="https://wa.me/5588999999999" target="_blank">Clique aqui para nos chamar!</a></p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Seu Negócio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
